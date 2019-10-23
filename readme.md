@@ -97,11 +97,12 @@
 <a name="tools-test"></a>
 ### Testing
 
-- [ghz](https://github.com/bojand/ghz) - Simple gRPC benchmarking and load testing tool inspired by hey and grpcurl 
+- [ghz](https://github.com/bojand/ghz) - Simple gRPC benchmarking and load testing tool inspired by hey and grpcurl
 - [gatling-grpc](https://github.com/phiSgr/gatling-grpc) - A [Gatling](http://gatling.io/) stress test plugin for gRPC.
-- [strest-grpc](https://github.com/BuoyantIO/strest-grpc) - A load tester for stress testing grpc intermediaries. 
+- [strest-grpc](https://github.com/BuoyantIO/strest-grpc) - A load tester for stress testing grpc intermediaries.
 - [hazana](https://github.com/emicklei/hazana) - A Go package for creating load test tooling. Supports gRPC.
 - [fortio](https://github.com/fortio/fortio) - A microservices (http, grpc) load testing library and tool from Istio project.
+- [grpc-swagger](https://github.com/grpc-swagger/grpc-swagger) - Debugging gRPC application with swagger-ui.
 
 <a name="tools-other"></a>
 ### Other
@@ -110,10 +111,12 @@
 - [grpc-proxy](https://github.com/mwitkow/grpc-proxy) - gRPC reverse proxy with the goal of making it easy to expose gRPC services over the internet
 - [ratelimit](https://github.com/lyft/ratelimit) - Go/gRPC service designed to enable generic rate limit scenarios from different types of applications
 - [ProfaneDB](https://gitlab.com/ProfaneDB/ProfaneDB) - A Protocol Buffers database with gRPC API, built in C++ on top of RocksDB
-- [danby](https://github.com/ericbets/danby) - A grpc proxy for the browser 
+- [danby](https://github.com/ericbets/danby) - A grpc proxy for the browser
 - [docker-protoc](https://github.com/namely/docker-protoc) - Dockerized protoc, grpc-gateway, and grpc_cli commands bundled with Google API libraries
 - [grpc-json-proxy](https://github.com/jnewmano/grpc-json-proxy) - A proxy which allows existing tools like Postman or curl to interact with gRPC servers
 - [protoc-gen-gotemplate](https://github.com/moul/protoc-gen-gotemplate) - Generic generator based on golang's template system
+- [grpc-http-proxy](https://github.com/mercari/grpc-http-proxy) - A reverse proxy server which translate JSON HTTP requests to gRPC calls based on protoreflect
+- [grpc-mate](https://github.com/gdong42/grpc-mate) - A dynamic proxy server that translates JSON HTTP requests into gRPC calls
 
 <a name="lang"></a>
 ## Language-Specific
@@ -125,6 +128,7 @@
 - [go-kit gRPC](https://github.com/go-kit/kit/tree/master/transport/grpc) - [Go Kit](https://github.com/go-kit) with gRPC as transport
 - [gRPC over NATS](https://github.com/rapidloop/nrpc) - nRPC is an RPC framework like gRPC, but for NATS.
 - [grpc-web](https://github.com/improbable-eng/grpc-web) - gRPC Web implementation for Golang and TypeScript
+- [grpc-web-devtools](https://github.com/SafetyCulture/grpc-web-devtools) - Chrome Browser extension to aid gRPC-Web development
 - [rpcx](https://github.com/smallnest/rpcx) - A RPC service framework based on net/rpc like alibaba Dubbo and weibo Motan
 - [grpclb](https://github.com/bsm/grpclb) - External Load Balancing Service solution for gRPC written in Go
 - [grpc-proxy](https://github.com/mwitkow/grpc-proxy) - gRPC proxy is a Go reverse proxy that allows for rich routing of gRPC calls with minimum overhead
@@ -142,11 +146,13 @@
 - [grpc-consul-resolver](https://github.com/mbobakov/grpc-consul-resolver) - Easy to use endpoints resolver for the services registered in the [Consul](https://www.consul.io/)
 - [kuberesolver](https://github.com/sercand/kuberesolver) - gRPC Load Balancer with Kubernetes resolver
 - [ttrpc](https://github.com/containerd/ttrpc) - GRPC for low-memory environments
+- [grapi](https://github.com/izumin5210/grapi) - 😮 A surprisingly easy API server and generator in gRPC and Go
+- [gripmock](https://github.com/tokopedia/gripmock) - gRPC Mock Server
+- [grpc-gateway-boilerplate](https://github.com/johanbrandhorst/grpc-gateway-boilerplate) - All the boilerplate you need to get started with writing grpc-gateway powered REST services in Go
 
 <a name="lang-nodejs"></a>
 ### Node.js
 - [Mali](https://github.com/malijs/mali) - A minimalistic gRPC microservice framework for Node.js
-- [Condor Framework](https://github.com/devsu/condor-framework) - Framework for building gRPC services in Node JS
 - [grpc-host-builder](https://github.com/litichevskiydv/grpc-host-builder) - Lightweight library for building gRPC services with server side interceptors support
 - [grpc-caller](https://github.com/bojand/grpc-caller) - An improved Node.js gRPC client
 - [grpc-create-metadata](https://github.com/bojand/grpc-create-metadata) - Helper utility for creating gRPC `Metadata`
@@ -159,6 +165,8 @@
 - [grpc-dynamic-gateway](https://github.com/konsumer/grpc-dynamic-gateway) - Like grpc-gateway, but written in node and dynamic.
 - [node-protoc-plugin](https://github.com/konsumer/node-protoc-plugin) - Create protoc code-generation plugins easily in nodejs.
 - [grpc-promise](https://github.com/carlessistare/grpc-promise) - GRPC promisify module for all Request/Response types: standard and stream
+- [firecomm](https://github.com/firecomm/firecomm) - Feature library for gRPC-Node
+- [grpc-web-gateway](https://github.com/dialogs/grpc-web-gateway) – HTTP & WebSocket proxy gateway for gRPC services
 
 <a name="lang-java"></a>
 ### Java
@@ -166,14 +174,17 @@
 - [gax-java](https://github.com/googleapis/gax-java) - Google API Extensions for Java
 - [Armeria](https://github.com/line/armeria) - Asynchronous RPC/REST library built on top of Java 8, Netty, HTTP/2, Thrift and gRPC
 - [grpc-spring-boot-starter](https://github.com/yidongnan/grpc-spring-boot-starter) - Spring Boot starter module for gRPC framework
+- [grpc-spring-boot-starter](https://github.com/LogNet/grpc-spring-boot-starter) Spring Boot starter module for gRPC framework from LogNet.
 - [reactive-grpc](https://github.com/salesforce/reactive-grpc) - Integrates reactive programming with grpc-java
 - [grpc-java-contrib](https://github.com/salesforce/grpc-java-contrib) - Useful extensions for the grpc-java library
 - [rejoiner](https://github.com/google/rejoiner) - Generates a GraphQL schema from gRPC microservices
+- [hoverfly-java-grpc](https://mvnrepository.com/artifact/io.specto/hoverfly-java-grpc) - MITM proxy for recording and simulating gRPC services
 
 <a name="lang-ruby"></a>
 ### Ruby
 
 - [gruf](https://github.com/bigcommerce/gruf) - gRPC Ruby Framework
+- [gapic-generator-ruby](https://github.com/googleapis/gapic-generator-ruby) - Generates Ruby gRPC client libraries from protocol buffer definitions of an API.
 
 <a name="lang-py"></a>
 ### Python
@@ -193,6 +204,7 @@
 - [grpc-rs](https://github.com/pingcap/grpc-rs) - The gRPC library for Rust built on C Core library and futures
 - [grpc-rust](https://github.com/stepancheg/grpc-rust) - Rust implementation of gRPC
 - [tower-grpc](https://github.com/tower-rs/tower-grpc) - A client and server gRPC implementation based on Tower
+- [tonic](https://github.com/hyperium/tonic) - A native gRPC client & server implementation with async/await support
 
 <a name="lang-hs"></a>
 ### Haskell
@@ -238,6 +250,9 @@
 ### Kotlin
 
 - [kroto-plus](https://github.com/marcoferrer/kroto-plus) - gRPC Coroutines Integration and Protobuf message DSL support
+- [grpc-kotlin](https://github.com/rouzwawi/grpc-kotlin) - A protoc plugin for generating native Kotlin bindings using coroutine primitives for gRPC services
+- [gapic-generator-kotlin](https://github.com/googleapis/gapic-generator-kotlin) - Generates coroutine-based gRPC Kotlin client libraries from a protocol buffer description of an API
+- [grpc-kapt](https://github.com/google/grpc-kapt) - Annotation driven gRPC clients & servers in Kotlin with coroutines
 
 <a name="lang-perl"></a>
 ### Perl
@@ -249,7 +264,7 @@
 <a name="res-tuts"></a>
 ### Tutorials
 
-- [Building a gRPC service with Node.js](https://codelabs.developers.google.com/codelabs/cloud-grpc/index.html) - Google Clound Platform Codelab
+- [Building a gRPC service with Node.js](https://codelabs.developers.google.com/codelabs/cloud-grpc/index.html) - Google Cloud Platform Codelab
 - [Getting Started with Microservices using Go, gRPC and Kubernetes](https://outcrawl.com/getting-started-microservices-go-grpc-kubernetes/)
 - [gRPC in Production](https://about.sourcegraph.com/go/grpc-in-production-alan-shreve/)
 - [gRPC Go: Beyond the basics](https://blog.gopheracademy.com/advent-2017/go-grpc-beyond-basics/) - GopherAcademy article
@@ -271,7 +286,7 @@
 - [Backward and Forward Compatibility, Protobuf Versioning, Serialization](https://www.beautifulcode.co/backward-and-forward-compatibility-protobuf-versioning-serialization) - A small article on making gRPC API changes
 - [Node, gRPC, and Postgres](https://mherman.org/blog/node-grpc-postgres/) - This tutorial looks at how to implement an API with Node, gRPC, and Postgres.
 - [Building High Performance APIs In Go Using gRPC And Protocol Buffers](https://medium.com/@shijuvar/building-high-performance-apis-in-go-using-grpc-and-protocol-buffers-2eda5b80771b) - An introductory gRPC Go tutorial.
- 
+
 <a name="res-videos"></a>
 ### Videos
 
@@ -302,11 +317,16 @@
 - [Intro: gRPC-Web](https://www.youtube.com/watch?v=RtyKEDZipsM) - Stanley Cheung & Wenbo Zhu, Google at at KubeCon North America 2018
 - [gRPC Loadbalancing on Kubernetes](https://www.youtube.com/watch?v=F2znfxn_5Hg) - Presentation at KubeCon Europe 2018. [Source](https://github.com/jtattermusch/grpc-loadbalancing-kubernetes-examples).
 - [Putting gRPC in Practice](https://www.youtube.com/watch?v=8KWmNw9jQ04) - Presentation on working with gRPC.
+- [The Story of Why We Migrate to gRPC and How We Go About It](https://www.youtube.com/watch?v=fMq3IpPE3TU) - Matthias Grüter, Spotify at KubeCon + CloudNativeCon Europe 2019
+- [Authentication and Security in gRPC Microservices](https://www.youtube.com/watch?v=_y-lzjdVEf0) - Jan Tattermusch, Google at KubeCon + CloudNativeCon Europe 2019
+- [JustFootball’s Journey to gRPC + Linkerd in Production](https://www.youtube.com/watch?v=AxPfa7Mp_WY) - Ben Lambert, & Kevin Lingerfelt at KubeCon + CloudNativeCon Europe 2019
+- [gRPC load balancing and Service Mesh](https://www.youtube.com/watch?v=FuXnfGHUZcU) - Vishal Powar, Google at KubeCon + CloudNativeCon Europe 2019
+- [Adopting gRPC: Overcoming Team and Technical Hurdles](https://www.youtube.com/watch?v=VNllljvhcnk) - GOTO 2019 • Adopting gRPC: Overcoming Team and Technical Hurdles • Josh Humphries
 
 <a name="res-slides"></a>
 ### Slides
 
-- [gRPC Overview](http://www.slideshare.net/VarunTalwar4/grpc-overview) - An overview at gRPC: Talk at Slack by 
+- [gRPC Overview](http://www.slideshare.net/VarunTalwar4/grpc-overview) - An overview at gRPC: Talk at Slack by
 Varun Talwar
 - [gRPC Design and Implementation](https://www.slideshare.net/VarunTalwar4/grpc-design-and-implementation) - April 2016 talk at Stanford by Varun Talwar
 - [gRPC - boilerplate to high-performance scalable APIs](https://www.slideshare.net/AboutYouGmbH/robert-kubis-grpc-boilerplate-to-highperformance-scalable-apis-codetalks-2015) - code.talks 2015 by Robert Kubis
@@ -314,7 +334,7 @@ Varun Talwar
 - [gRPC and Microservices](https://www.slideshare.net/blinkingsquirrel/grpc-and-microservices) - Overview of Google's open source microservices framework - gRPC, based on HTTP2 and protocol buffers. Presented at Golang Melbourne, June 2016 by Jonathan Gomez
 - [gRPC and Microservices](https://github.com/jonog/talks/blob/master/src/grpc/grpc-presentation.md) - Golang Melbourne - June 2016 Go Hack Night by Jonathan Gomez
 - [Scalable Microservices with gRPC, Kubernetes, and Containers](https://speakerdeck.com/googlecloudplatform/scalable-microservices-with-grpc-kubernetes-and-containers-devfest-ukraine) - DevFest Ukraine
-- [OpenAPI and gRPC Side by-Side](https://www.slideshare.net/timburks/openapi-and-grpc-side-byside) - APIStrat Conference - 
+- [OpenAPI and gRPC Side by-Side](https://www.slideshare.net/timburks/openapi-and-grpc-side-byside) - APIStrat Conference -
 Tim Burks
 - [Go+Microservices at Mercari](https://talks.godoc.org/github.com/tcnksm/talks/2017/11/gocon2017/gocon2017.slide) - Taichi Nakashima at Go Conference 2017
 - [gRPC - RPC rebirth?](https://www.slideshare.net/LusBarbosa9/grpcrpc-rebirth) - Presentation about gRPC at the 23. NetPonto community meeting in Porto by Luís Barbosa
@@ -327,7 +347,7 @@ Tim Burks
 - [Multiplayer Simon Says - A Game using gRPC and Kubernetes](https://github.com/grpc-ecosystem/grpc-simon-says) - Sample app with Go server and clients using Node.js (on Arduino and web), and Java (Android and CLI)
 - [Go Microservices Example](https://github.com/harlow/go-micro-services) - HTTP up front, Protobufs in the rear
 - [Streaming RPC's using gRPC](https://github.com/ridha/grpc-streaming-demo) - A quick demo of bi-directional streaming RPC's using grpc, Go and Python
-- [gRPC Java Examples](https://github.com/saturnism/grpc-java-by-example) - A collection of useful/essential gRPC Java Examples 
+- [gRPC Java Examples](https://github.com/saturnism/grpc-java-by-example) - A collection of useful/essential gRPC Java Examples
 - [gRPC/OpenCensus Demo](https://github.com/rakyll/opencensus-grpc-demo) - Export metrics and traces from gRPC servers and clients using Java, Go and Prometheus
 - [go-micro-services](https://github.com/harlow/go-micro-services) - An demonstration of Golang micro-services that expose a HTTP/JSON frontend and then leverages gRPC for inter-service communication
 - [Colossus](https://github.com/lucperkins/colossus) - An example multi-language gRPC microservice architecture built by Bazel and targeting Kubernetes
@@ -344,7 +364,7 @@ Tim Burks
 <a name="proto"></a>
 ## Protocol Buffers
 
-<a name="proto-doc"></a>
+<a name="proto-docs"></a>
 ### Documentation
 
 - [Website](https://developers.google.com/protocol-buffers/) - Official website an documentation
@@ -353,8 +373,11 @@ Tim Burks
 <a name="proto-tools"></a>
 ### Tools
 
+- [buf](https://buf.build) - Protobuf tool that includes linting and breaking change detection.
+  Allows many types of input including directly checking remote repositories and tarballs, and has a built-in compiler as well.
 - [prototools](https://github.com/sourcegraph/prototools) - Documentation generator & other tools for protobuf/gRPC
 - [protoc-gen-doc](https://github.com/pseudomuto/protoc-gen-doc) - Documentation generator plugin for Google Protocol Buffers
+- [Protoxygen](https://github.com/lisroach/Protoxygen) - [Doxygen](http://doxygen.nl) plugin to generate documentation for protobuf/gRPC
 - [openapi2proto](https://github.com/NYTimes/openapi2proto) - A tool for generating Protobuf v3 schemas and gRPC service definitions from OpenAPI specifications
 - [Wireshark Protobuf Dissector](https://github.com/128technology/protobuf_dissector) - A Wireshark Lua plugin for decoding Google protobuf packets. [Relevant PR and discussion](https://github.com/google/protobuf/issues/3303).
 - [protoc-gen-lint](https://github.com/ckaznocha/protoc-gen-lint) - A plug-in for Google's Protocol Buffers (protobufs) compiler to lint .proto files for style violations
@@ -372,7 +395,7 @@ Tim Burks
 - [Cap’n Proto](https://capnproto.org/) - Think Protocol Buffers, except faster
 - [FlatBuffers](https://google.github.io/flatbuffers/) - An efficient cross platform serialization library
 - [RSocket](http://rsocket.io/) - Application protocol providing Reactive Streams semantics
-- [Twirp](https://github.com/twitchtv/twirp) - A simple RPC framework with protobuf service definitions 
+- [Twirp](https://github.com/twitchtv/twirp) - A simple RPC framework with protobuf service definitions
 - [Greenpack](https://github.com/glycerine/greenpack) - Serialization format similar to MessagePack, but adds field versioning and type annotation
 
 ## Contribute
