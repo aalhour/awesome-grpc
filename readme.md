@@ -103,6 +103,7 @@
 - [hazana](https://github.com/emicklei/hazana) - A Go package for creating load test tooling. Supports gRPC.
 - [fortio](https://github.com/fortio/fortio) - A microservices (http, grpc) load testing library and tool from Istio project.
 - [grpc-swagger](https://github.com/grpc-swagger/grpc-swagger) - Debugging gRPC application with swagger-ui.
+- [grpc-tools](https://github.com/bradleyjkemp/grpc-tools) - A suite of gRPC debugging tools. Like Fiddler/Charles but for gRPC.
 
 <a name="tools-other"></a>
 ### Other
@@ -149,6 +150,7 @@
 - [grapi](https://github.com/izumin5210/grapi) - 😮 A surprisingly easy API server and generator in gRPC and Go
 - [gripmock](https://github.com/tokopedia/gripmock) - gRPC Mock Server
 - [grpc-gateway-boilerplate](https://github.com/johanbrandhorst/grpc-gateway-boilerplate) - All the boilerplate you need to get started with writing grpc-gateway powered REST services in Go
+- [protoc-gen-struct-transformer](https://github.com/bold-commerce/protoc-gen-struct-transformer) - Transformation function generator for protocol buffers.
 
 <a name="lang-nodejs"></a>
 ### Node.js
@@ -385,6 +387,7 @@ Tim Burks
 - [protoc-gen-validate](https://github.com/lyft/protoc-gen-validate) - Protoc plugin to generate polyglot message validators
 - [go-proto-validators](https://github.com/mwitkow/go-proto-validators) - Generate message validators from .proto annotations, used in `grpc_validator` Go gRPC middleware.
 - [protolock](https://github.com/nilslice/protolock) - Protocol Buffer companion tool to `protoc` and `git`. Track your .proto files and prevent changes to messages and services which impact API compatibilty.
+- [protoc-gen-map](https://github.com/jackskj/protoc-gen-map) - SQL data mapper framework for Protocol Buffers.
 
 ### Similar
 
