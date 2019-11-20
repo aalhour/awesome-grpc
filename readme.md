@@ -151,6 +151,7 @@
 - [gripmock](https://github.com/tokopedia/gripmock) - gRPC Mock Server
 - [grpc-gateway-boilerplate](https://github.com/johanbrandhorst/grpc-gateway-boilerplate) - All the boilerplate you need to get started with writing grpc-gateway powered REST services in Go
 - [protoc-gen-struct-transformer](https://github.com/bold-commerce/protoc-gen-struct-transformer) - Transformation function generator for protocol buffers.
+- [cmux](https://github.com/soheilhy/cmux) - Connection multiplexer for GoLang: serve different services on the same port! Supports gRPC.
 
 <a name="lang-nodejs"></a>
 ### Node.js
@@ -199,6 +200,7 @@
 ### C#
 
 - [MagicOnion](https://github.com/neuecc/MagicOnion) - gRPC based HTTP/2 RPC Streaming Framework for .NET, .NET Core and Unity
+- [Grpc.Tools](https://www.nuget.org/packages/Grpc.Tools/) - gRPC and Protocol Buffer compiler for managed C# and native C++ projects. See [Introduction to gRPC on .NET Core](https://docs.microsoft.com/en-us/aspnet/core/grpc/?view=aspnetcore-3.0) tutorial.
 
 <a name="lang-rust"></a>
 ### Rust
@@ -388,6 +390,7 @@ Tim Burks
 - [go-proto-validators](https://github.com/mwitkow/go-proto-validators) - Generate message validators from .proto annotations, used in `grpc_validator` Go gRPC middleware.
 - [protolock](https://github.com/nilslice/protolock) - Protocol Buffer companion tool to `protoc` and `git`. Track your .proto files and prevent changes to messages and services which impact API compatibilty.
 - [protoc-gen-map](https://github.com/jackskj/protoc-gen-map) - SQL data mapper framework for Protocol Buffers.
+- [api-linter](https://github.com/googleapis/api-linter) - A linter for APIs defined in protocol buffers.
 
 ### Similar
 
